@@ -46,14 +46,14 @@ export default function AboutUsSection() {
               </div>
 
               <p className="text-lg leading-relaxed text-foreground/90">
-                Clean Attitude has quickly established itself as Abuja's premier
+                Clean Attitude has quickly established itself as Abuja&apos;s premier
                 cleaning service provider. We specialize in transforming spaces
                 with comprehensive residential and commercial cleaning
                 solutions.
               </p>
 
               <p className="text-base leading-relaxed text-muted-foreground">
-                From Maitama to Wuse, we understand Abuja's unique
+                From Maitama to Wuse, we understand Abuja&apos;s unique
                 cleaning challenges. Our eco-conscious team delivers exceptional
                 results for post-construction cleanup and regular maintenance.
               </p>

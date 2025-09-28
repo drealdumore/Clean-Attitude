@@ -88,7 +88,7 @@ export default function ServicesSection() {
           transition={{ duration: 0.8, delay: 0.5 }}
         >
           <p className="text-muted-foreground mb-6">
-            Don't see what you're looking for? We offer custom cleaning
+            Don&apos;t see what you&apos;re looking for? We offer custom cleaning
             solutions.
           </p>
           <a

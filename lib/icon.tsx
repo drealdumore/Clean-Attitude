@@ -1,6 +1,6 @@
 import { SVGProps } from "react";
 
-export const BuildingIcon = (props: SVGProps<SVGSVGElement>) => (
+export const BuildingIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
@@ -17,7 +17,7 @@ export const BuildingIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export const HappyClient = (props: SVGProps<SVGSVGElement>) => (
+export const HappyClient = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
@@ -34,7 +34,7 @@ export const HappyClient = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export const YearsIcon = (props: SVGProps<SVGSVGElement>) => (
+export const YearsIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
@@ -51,7 +51,7 @@ export const YearsIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export const TrophyIcon = (props: SVGProps<SVGSVGElement>) => (
+export const TrophyIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
@@ -68,14 +68,15 @@ export const TrophyIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export const LeftIcon = (props: SVGProps<SVGSVGElement>) => (
+export const LeftIcon = ({ className, ...props }: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
     strokeWidth={1.5}
     stroke="currentColor"
-    className="w-8 h-8"
+    className={className || "w-8 h-8"}
+    {...props}
   >
     <path
       strokeLinecap="round"
@@ -85,14 +86,15 @@ export const LeftIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export const RightIcon = (props: SVGProps<SVGSVGElement>) => (
+export const RightIcon = ({ className, ...props }: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
     strokeWidth={1.5}
     stroke="currentColor"
-    className="w-8 h-8"
+    className={className || "w-8 h-8"}
+    {...props}
   >
     <path
       strokeLinecap="round"
@@ -102,14 +104,15 @@ export const RightIcon = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export const StarIcon = (props: SVGProps<SVGSVGElement>) => (
+export const StarIcon = ({ className, ...props }: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
     strokeWidth={1.5}
     stroke="currentColor"
-    className={props.className}
+    className={className}
+    {...props}
   >
     <path
       strokeLinecap="round"

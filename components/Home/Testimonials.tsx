@@ -72,7 +72,7 @@ export default function TestimonialsSection() {
             What Our <span className="text-primary">Customers Say</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Don't just take our word for it. Here's what real customers have to say about their experience with Clean Attitude.
+            Don&apos;t just take our word for it. Here&apos;s what real customers have to say about their experience with Clean Attitude.
           </p>
         </motion.div>
 
@@ -159,7 +159,7 @@ export default function TestimonialsSection() {
 }
 
 //  Extracted testimonial card into reusable component with modern design
-function TestimonialCard({ testimonial }: { testimonial: any }) {
+function TestimonialCard({ testimonial }: { testimonial: { name: string; location: string; rating: number; text: string } }) {
   return (
     <Card className="h-full bg-black backdrop-blur-sm  shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
       <CardContent className="p-8 h-full flex flex-col">
@@ -172,7 +172,7 @@ function TestimonialCard({ testimonial }: { testimonial: any }) {
 
         {/*  Better typography for testimonial text */}
         <blockquote className="text-lg text-white/90 leading-relaxed mb-8 flex-grow text-pretty">
-          "{testimonial.text}"
+          &ldquo;{testimonial.text}&rdquo;
         </blockquote>
 
         {/*  Modernized author section with better visual hierarchy */}

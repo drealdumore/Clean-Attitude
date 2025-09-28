@@ -55,7 +55,7 @@ export const Navbar = () => {
     >
       <div className="p-2">
         <nav className="space-y-1">
-          {_siteDetails.menuLinks.map((item, index) => (
+          {_siteDetails.menuLinks.map((item) => (
             <motion.div key={item.link} variants={itemVariants}>
               <Link
                 href={item.link}
